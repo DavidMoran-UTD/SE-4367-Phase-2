@@ -34,3 +34,9 @@ Next, we need to add our project as a dependency to the project we want to gathe
 
 
 We are now ready to test.  We simply need to run the command "mvn test", and the program should automatically collect code coverage for the project.  The coverage data will be output in a file called "stmt-cov.txt".  The statement coverage for all of the test methods will be included in this file.  The test methods will have [TEST] as a prefix on the line, and the other lines are the will be the methods covered by that test method. 
+
+# SE4367-Phase2
+Augment the coverage collection tool implemented in Phase-1 to trace more information about program internal states, e.g., tracing accessible field/variable values for the beginning of each method execution. Then, infer the possible single-variable invariants based on the Daikon technique.</br>
+o Reference:</br>
+§ https://plse.cs.washington.edu/daikon/</br>
+o Evaluate your tool to infer invariants for one real-world library project from Phase-1, such as commons-utils or joda-time.
