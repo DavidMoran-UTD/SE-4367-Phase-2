@@ -1,0 +1,1312 @@
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/insertBatch/<T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;[[Ljava/lang/Object;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Variable: [[Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/query/<T:Ljava/lang/Object;>(Ljava/sql/Connection;Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;[Ljava/lang/Object;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Variable: [Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/BeanProcessor/createBean/<T:Ljava/lang/Object;>(Ljava/sql/ResultSet;Ljava/lang/Class<TT;>;[Ljava/beans/PropertyDescriptor;[I)TT;
+Variable: Ljava/sql/ResultSet; rs
+Variable: Ljava/lang/Class; type
+Variable: [Ljava/beans/PropertyDescriptor; props
+Variable: [I columnToProperty
+Method Name: org/apache/commons/dbutils/BeanProcessor/toBean/<T:Ljava/lang/Object;>(Ljava/sql/ResultSet;Ljava/lang/Class<+TT;>;)TT;
+Variable: Ljava/sql/ResultSet; rs
+Variable: Ljava/lang/Class; type
+Method Name: org/apache/commons/dbutils/handlers/properties/StringEnumPropertyHandler/match/(Ljava/lang/Class<*>;Ljava/lang/Object;)Z
+Variable: Ljava/lang/Class; parameter
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: test
+Value: 1.0
+Value: 
+Variable: Ljava/lang/Object; value
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class org.apache.commons.dbutils.handlers.properties.TestEnum
+Value: class org.apache.commons.dbutils.handlers.properties.TestEnum
+Value: class java.lang.Integer
+Method Name: org/apache/commons/dbutils/OutParameter/<init>/(ILjava/lang/Class<TT;>;)V
+Variable: I sqlType
+Variable: Ljava/lang/Class; javaType
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/query/<T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;[Ljava/lang/Object;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Variable: [Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/handlers/MapHandler/handle/(Ljava/sql/ResultSet;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/createRow/(Ljava/sql/ResultSet;)TV;
+Variable: Ljava/sql/ResultSet; rs
+Value: rs
+Value: rs
+Value: rs
+Value: rs
+Method Name: org/apache/commons/dbutils/handlers/AbstractKeyedHandler/handle/(Ljava/sql/ResultSet;)Ljava/util/Map<TK;TV;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/ResultSetIterator/<init>/null
+Variable: Ljava/sql/ResultSet; rs
+Variable: Ljava/sql/ResultSet; rs
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/handlers/columns/ShortColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/MapListHandler/handleRow/(Ljava/sql/ResultSet;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/update/(Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+Variable: Ljava/lang/String; sql
+Variable: [Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/handlers/ColumnListHandler/<init>/null
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/update/(Ljava/sql/Connection;Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: [Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/insert/<T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/<init>/(Ljava/lang/Class<TV;>;Ljava/lang/String;)V
+Variable: Ljava/lang/Class; type
+Variable: Ljava/lang/String; columnName
+Method Name: org/apache/commons/dbutils/BeanProcessor/<init>/(Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+Variable: Ljava/util/Map; columnToPropertyOverrides
+Method Name: org/apache/commons/dbutils/handlers/AbstractListHandler/handle/(Ljava/sql/ResultSet;)Ljava/util/List<TT;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/BasicRowProcessor/createCaseInsensitiveHashMap/(I)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+Variable: I cols
+Method Name: org/apache/commons/dbutils/BeanProcessor/populateBean/<T:Ljava/lang/Object;>(Ljava/sql/ResultSet;TT;)TT;
+Variable: Ljava/sql/ResultSet; rs
+Variable: Ljava/lang/Object; bean
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$10/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$11/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/<init>/(Ljava/lang/Class<TV;>;)V
+Variable: Ljava/lang/Class; type
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$14/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$15/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/QueryLoader/load/(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+Variable: Ljava/lang/String; path
+Method Name: org/apache/commons/dbutils/handlers/properties/StringEnumPropertyHandler/apply/(Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+Variable: Ljava/lang/Class; parameter
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: THREE
+Value: THREE
+Value: THREE
+Value: THREE
+Value: SIX
+Value: THREE
+Value: SIX
+Value: THREE
+Value: SIX
+Variable: Ljava/lang/Object; value
+Value: THREE
+Value: SIX
+Value: THREE
+Value: SIX
+Value: THREE
+Value: SIX
+Value: THREE
+Value: SIX
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Method Name: org/apache/commons/dbutils/handlers/BeanHandler/<init>/(Ljava/lang/Class<+TT;>;Lorg/apache/commons/dbutils/RowProcessor;)V
+Variable: Ljava/lang/Class; type
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$12/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$13/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$16/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/handlers/BeanListHandler/<init>/(Ljava/lang/Class<+TT;>;Lorg/apache/commons/dbutils/RowProcessor;)V
+Variable: Ljava/lang/Class; type
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/handlers/columns/FloatColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/KeyedHandler/<init>/null
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/<init>/(Ljava/lang/Class<TV;>;I)V
+Variable: Ljava/lang/Class; type
+Variable: I columnIndex
+Method Name: org/apache/commons/dbutils/handlers/ScalarHandler/handle/(Ljava/sql/ResultSet;)TT;
+Variable: Ljava/sql/ResultSet; rs
+Value: MockResultSet 727236
+Value: MockResultSet 1287606099
+Value: MockResultSet 1501513951
+Value: MockResultSet 366828226
+Value: Mock for ResultSet, hashCode: 848102479
+Method Name: org/apache/commons/dbutils/handlers/ScalarHandler/<init>/null
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Method Name: org/apache/commons/dbutils/handlers/ArrayListHandler/<init>/null
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/handlers/properties/DatePropertyHandler/match/(Ljava/lang/Class<*>;Ljava/lang/Object;)Z
+Variable: Ljava/lang/String; targetType
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 2019-12-08 22:34:07.224
+Value: Sun Dec 08 22:34:07 CST 2019
+Value: Sun Dec 08 22:34:07 CST 2019
+Value: Sun Dec 08 22:34:07 CST 2019
+Value: null
+Value: Sun Dec 08 22:34:07 CST 2019
+Variable: Ljava/lang/Class; parameter
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.sql.Timestamp
+Value: class java.sql.Date
+Value: class java.sql.Time
+Value: class java.sql.Timestamp
+Value: class java.lang.Float
+Value: class java.lang.Float
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/<init>/null
+Variable: Ljava/util/concurrent/ExecutorService; executorService
+Variable: Lorg/apache/commons/dbutils/QueryRunner; queryRunner
+Variable: Ljava/util/concurrent/ExecutorService; executorService
+Variable: Z pmdKnownBroken
+Variable: Ljava/util/concurrent/ExecutorService; executorService
+Variable: Ljavax/sql/DataSource; ds
+Variable: Ljava/util/concurrent/ExecutorService; executorService
+Variable: Ljavax/sql/DataSource; ds
+Variable: Z pmdKnownBroken
+Variable: Ljava/util/concurrent/ExecutorService; executorService
+Method Name: org/apache/commons/dbutils/handlers/columns/SQLXMLColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/BeanListHandler/handle/(Ljava/sql/ResultSet;)Ljava/util/List<TT;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/BasicRowProcessor/<init>/null
+Variable: Lorg/apache/commons/dbutils/BeanProcessor; convert
+Method Name: org/apache/commons/dbutils/handlers/MapListHandler/<init>/null
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/handlers/KeyedHandler/createKey/(Ljava/sql/ResultSet;)TK;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/handlers/columns/IntegerColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/BeanHandler/handle/(Ljava/sql/ResultSet;)TT;
+Variable: Ljava/sql/ResultSet; rs
+Value: MockResultSet 1480170882
+Value: MockResultSet 62915435
+Value: MockResultSet 394349340
+Value: MockResultSet 2060037930
+Method Name: org/apache/commons/dbutils/handlers/columns/DoubleColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/columns/BooleanColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/update/(Ljava/lang/String;Ljava/lang/Object;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+Variable: Ljava/lang/String; sql
+Variable: Ljava/lang/Object; param
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/<init>/(Ljava/lang/Class<TV;>;Lorg/apache/commons/dbutils/RowProcessor;ILjava/lang/String;)V
+Variable: Ljava/lang/Class; type
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Variable: I columnIndex
+Variable: Ljava/lang/String; columnName
+Method Name: org/apache/commons/dbutils/StatementConfiguration/<init>/null
+Variable: Ljava/lang/Integer; fetchDirection
+Variable: Ljava/lang/Integer; fetchSize
+Variable: Ljava/lang/Integer; maxFieldSize
+Variable: Ljava/lang/Integer; maxRows
+Variable: Ljava/lang/Integer; queryTimeout
+Method Name: org/apache/commons/dbutils/ProxyFactory/newProxyInstance/<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/reflect/InvocationHandler;)TT;
+Variable: Ljava/lang/Class; type
+Variable: Ljava/lang/reflect/InvocationHandler; handler
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/insertBatch/<T:Ljava/lang/Object;>(Ljava/sql/Connection;Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;[[Ljava/lang/Object;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Variable: [[Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/QueryRunnerTest$MyBean/<init>/null
+Variable: Lorg/apache/commons/dbutils/QueryRunnerTest; this$0
+Method Name: org/apache/commons/dbutils/handlers/columns/ByteColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/BasicRowProcessor$CaseInsensitiveHashMap/<init>/null
+Variable: I initialCapacity
+Method Name: org/apache/commons/dbutils/handlers/ArrayHandler/<init>/null
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/insert/<T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;[Ljava/lang/Object;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Variable: [Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$9/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/<init>/(Ljava/lang/Class<TV;>;Lorg/apache/commons/dbutils/RowProcessor;)V
+Variable: Ljava/lang/Class; type
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/insert/<T:Ljava/lang/Object;>(Ljava/sql/Connection;Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Method Name: org/apache/commons/dbutils/AbstractQueryRunner/<init>/null
+Variable: Z pmdKnownBroken
+Variable: Ljavax/sql/DataSource; ds
+Variable: Ljavax/sql/DataSource; ds
+Variable: Z pmdKnownBroken
+Variable: Ljavax/sql/DataSource; ds
+Variable: Z pmdKnownBroken
+Variable: Lorg/apache/commons/dbutils/StatementConfiguration; stmtConfig
+Variable: Ljavax/sql/DataSource; ds
+Variable: Lorg/apache/commons/dbutils/StatementConfiguration; stmtConfig
+Variable: Lorg/apache/commons/dbutils/StatementConfiguration; stmtConfig
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$7/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$8/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/batch/(Ljava/sql/Connection;Ljava/lang/String;[[Ljava/lang/Object;)Ljava/util/concurrent/Future<[I>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: [[Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/update/(Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/batch/(Ljava/lang/String;[[Ljava/lang/Object;)Ljava/util/concurrent/Future<[I>;
+Variable: Ljava/lang/String; sql
+Variable: [[Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$6/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$5/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/handlers/properties/DatePropertyHandler/apply/(Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+Variable: Ljava/lang/Class; parameter
+Value: Sun Dec 08 22:34:07 CST 2019
+Value: Sun Dec 08 22:34:07 CST 2019
+Value: Sun Dec 08 22:34:07 CST 2019
+Variable: Ljava/lang/Object; value
+Value: class java.sql.Date
+Value: class java.sql.Time
+Value: class java.sql.Timestamp
+Method Name: org/apache/commons/dbutils/DbUtils$DriverProxy/<init>/null
+Variable: Ljava/sql/Driver; adapted
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$2/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/OutParameter/setValue/(TT;)V
+Variable: Ljava/lang/Object; value
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$3/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$4/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/handlers/columns/LongColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/QueryRunnerTest$1/handle/(Ljava/sql/ResultSet;)Ljava/util/List<Ljava/lang/Object;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/handlers/columns/StringColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/columns/ColumnHandlerTestBase/<init>/(Lorg/apache/commons/dbutils/ColumnHandler;Ljava/lang/Class<*>;)V
+Variable: Lorg/apache/commons/dbutils/ColumnHandler; handler
+Variable: Ljava/lang/Class; matchingType
+Method Name: org/apache/commons/dbutils/QueryRunnerTest$1/<init>/null
+Variable: Lorg/apache/commons/dbutils/QueryRunnerTest; this$0
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner$1/<init>/null
+Variable: Lorg/apache/commons/dbutils/AsyncQueryRunner; this$0
+Method Name: org/apache/commons/dbutils/QueryRunnerTest$2/<init>/null
+Variable: Lorg/apache/commons/dbutils/QueryRunnerTest; this$0
+Method Name: org/apache/commons/dbutils/handlers/columns/TestColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/handlers/ColumnListHandler/handleRow/(Ljava/sql/ResultSet;)TT;
+Variable: Ljava/sql/ResultSet; rs
+Value: MockResultSet 1859153769
+Value: MockResultSet 1859153769
+Value: MockResultSet 806738808
+Value: MockResultSet 806738808
+Value: MockResultSet 1365163763
+Value: MockResultSet 1365163763
+Method Name: org/apache/commons/dbutils/BeanProcessor/toBeanList/<T:Ljava/lang/Object;>(Ljava/sql/ResultSet;Ljava/lang/Class<+TT;>;)Ljava/util/List<TT;>;
+Variable: Ljava/sql/ResultSet; rs
+Variable: Ljava/lang/Class; type
+Method Name: org/apache/commons/dbutils/handlers/properties/TestPropertyHandler/match/(Ljava/lang/Class<*>;Ljava/lang/Object;)Z
+Variable: Ljava/lang/Class; parameter
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Variable: Ljava/lang/Object; value
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: 1
+Value: 2
+Value: THREE
+Value: 1
+Value: 2
+Value: null
+Value: 0
+Value: Sun Dec 08 22:34:06 CST 2019
+Value: 13.0
+Value: 4
+Value: 5
+Value: SIX
+Value: 3
+Value: 4
+Value: null
+Value: 0
+Value: 2019-12-08 22:34:06.789456123
+Value: 13.0
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Value: class java.lang.String
+Value: class java.lang.String
+Value: class org.apache.commons.dbutils.TestBean$Ordinal
+Value: int
+Value: class java.lang.Integer
+Value: class java.lang.Object
+Value: int
+Value: class java.lang.String
+Value: double
+Method Name: org/apache/commons/dbutils/QueryRunner/<init>/null
+Variable: Z pmdKnownBroken
+Variable: Ljavax/sql/DataSource; ds
+Variable: Lorg/apache/commons/dbutils/StatementConfiguration; stmtConfig
+Variable: Ljavax/sql/DataSource; ds
+Variable: Z pmdKnownBroken
+Variable: Ljavax/sql/DataSource; ds
+Variable: Lorg/apache/commons/dbutils/StatementConfiguration; stmtConfig
+Variable: Ljavax/sql/DataSource; ds
+Variable: Z pmdKnownBroken
+Variable: Lorg/apache/commons/dbutils/StatementConfiguration; stmtConfig
+Method Name: org/apache/commons/dbutils/handlers/KeyedHandler/createRow/(Ljava/sql/ResultSet;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+Variable: Ljava/sql/ResultSet; rs
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/query/<T:Ljava/lang/Object;>(Ljava/sql/Connection;Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/update/(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: Ljava/lang/Object; param
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/insert/<T:Ljava/lang/Object;>(Ljava/sql/Connection;Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;[Ljava/lang/Object;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/sql/Connection; conn
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Variable: [Ljava/lang/Object; params
+Method Name: org/apache/commons/dbutils/handlers/BeanMapHandler/createKey/(Ljava/sql/ResultSet;)TK;
+Variable: Ljava/sql/ResultSet; rs
+Value: rs
+Value: rs
+Value: rs
+Value: rs
+Method Name: org/apache/commons/dbutils/handlers/BeanHandler/<init>/(Ljava/lang/Class<+TT;>;)V
+Variable: Ljava/lang/Class; type
+Method Name: org/apache/commons/dbutils/handlers/BeanListHandler/<init>/(Ljava/lang/Class<+TT;>;)V
+Variable: Ljava/lang/Class; type
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/update/(Ljava/lang/String;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+Variable: Ljava/lang/String; sql
+Method Name: org/apache/commons/dbutils/AsyncQueryRunner/query/<T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/apache/commons/dbutils/ResultSetHandler<TT;>;)Ljava/util/concurrent/Future<TT;>;
+Variable: Ljava/lang/String; sql
+Variable: Lorg/apache/commons/dbutils/ResultSetHandler; rsh
+Method Name: org/apache/commons/dbutils/OutParameter/<init>/(ILjava/lang/Class<TT;>;TT;)V
+Variable: I sqlType
+Variable: Ljava/lang/Class; javaType
+Variable: Ljava/lang/Object; value
+Method Name: org/apache/commons/dbutils/handlers/columns/TimestampColumnHandler/match/(Ljava/lang/Class<*>;)Z
+Variable: Ljava/lang/Class; propType
+Method Name: org/apache/commons/dbutils/QueryLoader/loadQueries/(Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+Variable: Ljava/util/Properties; props
+Method Name: org/apache/commons/dbutils/handlers/MapHandler/<init>/null
+Variable: Lorg/apache/commons/dbutils/RowProcessor; convert
+Method Name: org/apache/commons/dbutils/BeanProcessor/populateBean/<T:Ljava/lang/Object;>(Ljava/sql/ResultSet;TT;[Ljava/beans/PropertyDescriptor;[I)TT;
+Variable: Ljava/beans/PropertyDescriptor; prop
+Variable: Ljava/lang/Class; propType
+Variable: Ljava/lang/Object; value
+Variable: I i
+Method Name: org/apache/commons/dbutils/handlers/properties/TestPropertyHandler/apply/(Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+Variable: Ljava/lang/Class; parameter
+Variable: Ljava/lang/Object; value
