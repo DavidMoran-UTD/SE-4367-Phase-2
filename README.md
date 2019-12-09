@@ -6,7 +6,7 @@ Next, we need to add our project as a dependency to the project we want to gathe
 1. We first need to add the jar file from our project as a dependency in the pom.xml of the target project that we want to gather statement coverage for. 
 ```xml
 <dependency>
-    <groupId>CodeCoverage</groupId>
+    <groupId>edu.utdallas</groupId>
     <artifactId>code-coverage</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
