@@ -12,7 +12,7 @@ Next, we need to add our project as a dependency to the project we want to gathe
 </dependency>
 ```
 
-2. We then need to add the agent and the listener to the plug ins.  Simply add the following code to pom.xml and replace [your-agent-jar] with the absolute path to your Java agent jar file, and [your-project-name] with the name of the project.  
+2. We then need to add the agent and the listener to the plug ins.  Simply add the following code to pom.xml and replace [your-agent-jar] with the absolute path to your Java agent jar file.  
 
 ```xml
          <plugin>
@@ -20,7 +20,7 @@ Next, we need to add our project as a dependency to the project we want to gathe
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <configuration>
-                <argLine>-javaagent:[your-agent-jar]=[name-of-project]=[your-project-name]</argLine>
+                <argLine>-javaagent:[your-agent-jar]</argLine>
                 <properties>
                     <property>
                         <name>listener</name>
